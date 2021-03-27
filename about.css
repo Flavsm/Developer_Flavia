@@ -1,0 +1,235 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    margin:0;
+}
+
+.allElements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.headerBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    min-width: 100vw;
+    height: 25vh;
+    min-height: 25vh;
+    font-family: 'Fjord One', serif;
+    padding-top: 15px;
+}
+
+.introBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw; 
+    height: 6vh;
+}
+
+.introBox a {
+    color: black;
+}
+
+.h1Box {
+    display: flex;
+    justify-items: flex-end;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    width: 60vw;
+}
+
+.titleBox {
+    min-width: 5vw;
+    min-height: 1vh;
+}
+
+#title-text {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 40vw;
+    padding-left: 10px;
+    min-height: 4vh;
+}
+
+.menuBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 20vw;
+    height: 18vh;
+}
+
+.navListBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 50vw;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Fjord One', serif;
+    height: 4vh;
+    background-color: black;
+}
+
+.navListBox a {
+    text-decoration: none;
+    color: white;
+}
+
+.iconItems {
+    display: flex;
+    align-items: center;
+}
+svg {
+    
+    fill: #fff;
+}    
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 75vh;
+}
+        
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+            
+            @media (min-width:600px) {
+                * {
+                    margin:0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                body {
+                   width: 100vw;
+                   min-height: 100vh;
+                   margin:0;
+                }
+                
+                .allElements {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 100vw;
+                }
+                
+                .headerBox {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    width: 100vw;
+                    min-width: 100vw;
+                    height: 25vh;
+                    min-height: 25vh;
+                    font-family: 'Fjord One', serif;
+                    padding-top: 0;
+                }
+                
+                .introBox {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 50vw; 
+                    height: 25vh;
+                }
+                
+                
+                .h1Box {
+                    display: flex;
+                    justify-items: flex-end;
+                    font-size: 60px;
+                    line-height: 100px;
+                    letter-spacing: 5px;
+                    padding-left: 15px;
+                    height: 13vh;
+                }
+                
+                .titleBox {
+                    min-width: 30vw;
+                    min-height: 12vh;
+                }
+                
+                #title-text {
+                    display: flex;
+                    align-items: center;
+                    background-color: black;
+                    color: white;
+                    font-size: 25px;
+                    width: 30vw;
+                    padding-left: 10px;
+                    height: 5vh;
+                }
+                
+                .menuBox {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    min-width: 50vw;
+                }
+                
+                .navListBox {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    min-width: 30vw;
+                    list-style: none;
+                    font-size: 25px;
+                    font-family: 'Fjord One', serif;
+                    height: 5vh;
+                    background-color: black;
+                }
+                
+                .navListBox a {
+                    text-decoration: none;
+                    color: white;
+                }
+                
+                .iconItems {
+                    display: flex;
+                    align-items: center;
+                }
+                svg {
+                    
+                    fill: #fff;
+                }
+
+                main {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100vw;
+                    height: 75vh;
+                }
+
+                a, a:hover, a:focus, a:active {
+                    text-decoration: none;
+                }
+            }
