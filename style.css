@@ -83,7 +83,7 @@ body {
     list-style: none;
     font-size: 18px;
     font-family: 'Fjord One', serif;
-    height: 4vh;
+    height: 5vh;
     background-color: black;
 }
 
@@ -162,7 +162,7 @@ svg {
 .projectZero .boxTitle {
     display: flex;
     justify-content: center;
-    width: 90vw
+    width: 100vw
 }
 
 .card {
@@ -189,7 +189,7 @@ svg {
 
 .upsideDown video {
     border-radius: 5px 5px 0 0;
-    height: 110px;
+    height: 125px;
 }
 
 .normalSide .card {
@@ -198,12 +198,12 @@ svg {
 
 .normalSide video {
     border-radius: 5px 5px 0 0;
-    height: 100px;
+    height: 125px;
     z-index: 1;
 }
 
 .videoBox {
-    height: 120px;
+    height: 125px;
 }
 
 /* Add some padding inside the card container */

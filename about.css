@@ -86,7 +86,7 @@ body {
     list-style: none;
     font-size: 18px;
     font-family: 'Fjord One', serif;
-    height: 4vh;
+    height: 5vh;
     background-color: black;
 }
 
@@ -116,6 +116,9 @@ main {
 main h4 {
     width: 60vw;
     text-align: justify;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 5px;
 }
         
 a, a:hover, a:focus, a:active {
@@ -238,6 +241,8 @@ a, a:hover, a:focus, a:active {
                     width: 40vw;
                     text-align: justify;
                     font-size: 22px;
+                    border: 1px solid black;
+                    padding: 5px;
                 }
 
                 a, a:hover, a:focus, a:active {
