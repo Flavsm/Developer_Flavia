@@ -63,7 +63,7 @@ body {
     background-color: black;
     color: white;
     font-size: 18px;
-    width: 40vw;
+    width: 50vw;
     padding-left: 10px;
     min-height: 5vh;
 }
@@ -114,7 +114,7 @@ main {
 }
 
 main h4 {
-    width: 53vw;
+    width: 60vw;
     text-align: justify;
 }
         
@@ -237,6 +237,7 @@ a, a:hover, a:focus, a:active {
                 main h4 {
                     width: 40vw;
                     text-align: justify;
+                    font-size: 22px;
                 }
 
                 a, a:hover, a:focus, a:active {

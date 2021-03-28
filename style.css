@@ -60,7 +60,7 @@ body {
     background-color: black;
     color: white;
     font-size: 18px;
-    width: 40vw;
+    width: 50vw;
     padding-left: 10px;
     min-height: 5vh;
 }
@@ -159,6 +159,11 @@ svg {
     background-image:linear-gradient(180deg, rgb(74, 231, 81), rgb(206, 169, 48) );
 } 
 
+.projectZero .boxTitle {
+    display: flex;
+    justify-content: center;
+    width: 90vw
+}
 
 .card {
     /* Add shadows to create the "card" effect */
@@ -184,7 +189,7 @@ svg {
 
 .upsideDown video {
     border-radius: 5px 5px 0 0;
-    height: 120px;
+    height: 110px;
 }
 
 .normalSide .card {
@@ -193,12 +198,12 @@ svg {
 
 .normalSide video {
     border-radius: 5px 5px 0 0;
-    height: 140px;
+    height: 100px;
     z-index: 1;
 }
 
 .videoBox {
-    height: 140px;
+    height: 120px;
 }
 
 /* Add some padding inside the card container */
@@ -209,7 +214,7 @@ svg {
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
-    height: 28vh;
+    height: 40vh;
     width: 55vw;
 }
 
