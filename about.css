@@ -107,8 +107,8 @@ svg {
 
 .aboutBox {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     width: 100vw;
     min-height: 75vh;
@@ -116,19 +116,45 @@ svg {
 .aboutText {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 85vw;
     min-height: 75vh;
     font-size: 18px;
-    margin: 0;
     line-height: 25px;
-    margin: 5px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
 }
 
 .aboutText p {
     text-indent: 30px;
     text-align: justify;
+    margin: 3px;
+}
+
+.resumeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-position: inside;
+    width: 85vw;
+    min-height: 55vh;
+}
+
+.resumeBox h3 {
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.resumeBox ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 75vw;
+    height: 40vh;   
 }
 
 a, a:hover, a:focus, a:active {
@@ -183,15 +209,35 @@ a, a:hover, a:focus, a:active {
                 }
                 
                 .aboutBox {
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
                     height: 75vh;
+                    width: 100vw;
                 }
                 .aboutText {
-                    width: 50vw;
+                    width: 70vw;
                     height: 70vh;
                     font-size: 18px;
+                    padding-bottom: 0;
+                    border-right: 2px solid black;
+                    border-bottom: 0;
                 }
 
                 .aboutText p {
                     text-indent: 50px;
+                    margin: 0;
+                    width: 50vw;
+                }
+
+                .resumeBox {
+                    justify-content: space-between;
+                    width: 30vw;
+                    min-height: 75vh;
+                }
+                .resumeBox ul {
+                    justify-content: space-between;
+                    width: 25vw;
+                    margin-bottom: 120px;
                 }
             }
