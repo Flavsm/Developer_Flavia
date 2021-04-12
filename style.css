@@ -159,10 +159,14 @@ svg {
     background-image:linear-gradient(180deg, rgb(74, 231, 81), rgb(206, 169, 48) );
 } 
 
-.projectZero .boxTitle {
+/* .projectZero .boxTitle {
     display: flex;
     justify-content: center;
     width: 100vw
+} */
+
+.boxTitle {
+    font-size: 25px;
 }
 
 .card {
@@ -189,7 +193,7 @@ svg {
 
 .upsideDown video {
     border-radius: 5px 5px 0 0;
-    height: 125px;
+    height: 120px;
 }
 
 .normalSide .card {
@@ -198,12 +202,12 @@ svg {
 
 .normalSide video {
     border-radius: 5px 5px 0 0;
-    height: 125px;
+    height: 120px;
     z-index: 1;
 }
 
 .videoBox {
-    height: 125px;
+    height: 120px;
 }
 
 /* Add some padding inside the card container */
@@ -218,14 +222,6 @@ svg {
     width: 55vw;
 }
 
-.container li {
-    list-style: none;
-}
-
-.container span {
-    text-decoration: underline;
-}
-
 .container ul {
     display: flex;
     flex-direction: column;
@@ -236,8 +232,12 @@ svg {
 }
 
 .container ul li {
-    text-align: left;
     width: 50vw;
+    list-style: none;
+}
+
+.container span {
+    text-decoration: underline;
 }
 
 a, a:hover, a:focus, a:active {
@@ -245,55 +245,23 @@ a, a:hover, a:focus, a:active {
 }
 
             @media (min-width: 600px) {
-                * {
-                    margin:0;
-                    padding: 0;
-                    box-sizing: border-box;
-                }
-                
-                body {
-                   width: 100vw;
-                   min-height: 100vh;
-                   margin:0;
-                }
-                
-                .allElements {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                    width: 100vw;
-                }
                 
                 .headerBox {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-evenly;
-                    width: 100vw;
-                    min-width: 100vw;
-                    height: 25vh;
-                    min-height: 25vh;
-                    font-family: 'Fjord One', serif;
                     padding-top: 0;
                 }
                 
                 .introBox {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
                     width: 50vw; 
                     height: 25vh;
                 }
-                
-                
+
                 .h1Box {
-                    display: flex;
-                    justify-items: flex-end;
                     font-size: 60px;
                     line-height: 100px;
                     letter-spacing: 5px;
                     padding-left: 15px;
                     height: 13vh;
+                    width: 50vw;
                 }
                 
                 .titleBox {
@@ -302,74 +270,29 @@ a, a:hover, a:focus, a:active {
                 }
                 
                 #title-text {
-                    display: flex;
-                    align-items: center;
-                    background-color: black;
-                    color: white;
                     font-size: 25px;
                     width: 30vw;
-                    padding-left: 10px;
-                    height: 5vh;
                 }
                 
                 .menuBox {
-                    display: flex;
                     flex-direction: row;
-                    justify-content: flex-end;
                     align-items: center;
                     min-width: 50vw;
                 }
                 
                 .navListBox {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-evenly;
-                    align-items: center;
                     min-width: 30vw;
-                    list-style: none;
                     font-size: 25px;
-                    font-family: 'Fjord One', serif;
-                    height: 5vh;
-                    background-color: black;
-                }
-                
-                .navListBox a {
-                    text-decoration: none;
-                    color: white;
-                }
-                
-                .iconItems {
-                    display: flex;
-                    align-items: center;
-                }
-                svg {
-                    
-                    fill: #fff;
                 }
                 
                 .projectsBox {
-                    display: flex;
                     flex-direction: row; 
                     justify-content: space-evenly;
-                    align-items: center;
-                    width: 100vw;
-                    min-width: 100vw;
                     height: 75vh;
                     min-height: 75vh;
-                    font-family: 'Fjord One', serif;
-                }
-                
-                .projectsBox a {
-                    text-decoration: none;
-                    color: black;
                 }
                 
                 .projectZero, .projectOne, .projectTwo, .projectThree, .projectFour  {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-evenly;
-                    align-items: center;
-                    letter-spacing: 3px;
                     font-size: 30px;
                     width: 25vw;
                     min-width: 25vw;
@@ -377,35 +300,25 @@ a, a:hover, a:focus, a:active {
                     min-height: 75vh;
                 }
                 
-                .projectZero { 
-                    display: flex;
-                    background-image:linear-gradient(180deg, rgb(243, 167, 26), rgb(231, 136, 151) );   
-                
-                }
                 
                 .projectOne {
-                    display: flex;
                     flex-direction: column-reverse;
-                    background-image:linear-gradient(180deg, rgb(231, 136, 151), rgb(168, 55, 168) );
-                }
-                
-                .projectTwo {
-                    display: flex;
-                    background-image:linear-gradient(180deg, rgb(168, 55, 168), rgb(93, 93, 236) );
                 }
                 
                 .projectThree {
-                    display: flex;
                     flex-direction: column-reverse;
-                    background-image:linear-gradient(180deg, rgb(93, 93, 236), rgb(74, 231, 81) );
+                }
+        
+                .boxTitle {
+                    font-size: 30px;
                 }
                 
-                .projectFour {
-                    display: flex;
-                    background-image:linear-gradient(180deg, rgb(74, 231, 81), rgb(206, 169, 48) );
-                } 
-                
-                
+                .card {
+                    justify-content: center;
+                    width: 17vw;
+                    height: 50vh;
+                  }
+
                 .upsideDown .card {
                     flex-direction: column-reverse;
                 }
@@ -415,81 +328,31 @@ a, a:hover, a:focus, a:active {
                     height: 135px;
                 }
                 
-                .normalSide .card {
-                    flex-direction: column;
-                }
-                
-                .normalSide img {
-                    border-radius: 5px 5px 0 0;
-                }
-                
                 .normalSide video {
-                    border-radius: 5px 5px 0 0;
                     height: 135px;
-                    z-index: 1;
                 }
                 
                 .videoBox {
                     height: 135px;
                 }
-                
-                .card {
-                    /* Add shadows to create the "card" effect */
-                    display: flex;  
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    width: 17vw;
-                    height: 50vh;
-                    box-shadow: 0 8px 16px 8px rgba(0,0,0,0.2);
-                    transition: 0.3s;
-                    border-radius: 5px;
-                  }
                   
-                  /* On mouse-over, add a deeper shadow */
-                  .card:hover {
-                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
-                  }
                   
-                  /* Add some padding inside the card container */
-                  .container {
-                    display: flex;
-                    flex-direction: column;
+                .container {
                     justify-content: space-evenly;
-                    align-items: center;
                     padding: 0 15px 0 15px;
-                    font-family: 'Times New Roman', Times, serif;
-                    font-size: 14px;
                     min-width: 13vw;
                     width: 17vw;
                     min-height: 35vh;
                   }
-                
-                  .container li {
-                      list-style: none;
-                  }
-                
-                  .container span {
-                      text-decoration: underline;
-                  }
-                
-                  .container ul {
-                      display: flex;
-                      flex-direction: column;
-                      justify-content: space-evenly;
-                      align-items: center;
+    
+                .container ul {
                       min-height: 30vh;
                       padding-left: 0;
+                      line-height: 25px;
                   }
 
-                  .container ul li {
-                    text-align: left;
+                .container ul li {
                     width: 15vw;
-                }
-
-                a, a:hover, a:focus, a:active {
-                    text-decoration: none;
-                    
                 }
 
             }

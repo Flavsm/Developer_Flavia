@@ -13,9 +13,10 @@ body {
 .allElements {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100vw;
+    min-height: 150vh;
 }
 
 .headerBox {
@@ -104,77 +105,57 @@ svg {
     fill: #fff;
 }    
 
-main {
+.aboutBox {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
     width: 100vw;
     height: 75vh;
 }
-
-main h4 {
-    width: 60vw;
-    text-align: justify;
-    font-size: 16px;
-    border: 1px solid black;
-    padding: 5px;
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 85vw;
+    font-size: 18px;
+    margin: 0;
+    line-height: 25px;
 }
-        
+
+.aboutText p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
 a, a:hover, a:focus, a:active {
     text-decoration: none;
 }
             
             @media (min-width:600px) {
-                * {
-                    margin:0;
-                    padding: 0;
-                    box-sizing: border-box;
-                }
-                
-                body {
-                   width: 100vw;
-                   min-height: 100vh;
-                   margin:0;
-                }
                 
                 .allElements {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                    width: 100vw;
+                    min-height: 100vh;
                 }
                 
                 .headerBox {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-evenly;
-                    width: 100vw;
-                    min-width: 100vw;
-                    height: 25vh;
-                    min-height: 25vh;
-                    font-family: 'Fjord One', serif;
                     padding-top: 0;
                 }
                 
                 .introBox {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
                     width: 50vw; 
                     height: 25vh;
                 }
                 
                 
                 .h1Box {
-                    display: flex;
-                    justify-items: flex-end;
                     font-size: 60px;
                     line-height: 100px;
                     letter-spacing: 5px;
                     padding-left: 15px;
                     height: 13vh;
+                    width: 50vw;
                 }
                 
                 .titleBox {
@@ -183,18 +164,11 @@ a, a:hover, a:focus, a:active {
                 }
                 
                 #title-text {
-                    display: flex;
-                    align-items: center;
-                    background-color: black;
-                    color: white;
                     font-size: 25px;
                     width: 30vw;
-                    padding-left: 10px;
-                    height: 5vh;
                 }
                 
                 .menuBox {
-                    display: flex;
                     flex-direction: row;
                     justify-content: flex-end;
                     align-items: center;
@@ -202,50 +176,17 @@ a, a:hover, a:focus, a:active {
                 }
                 
                 .navListBox {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-evenly;
-                    align-items: center;
                     min-width: 30vw;
-                    list-style: none;
                     font-size: 25px;
-                    font-family: 'Fjord One', serif;
-                    height: 5vh;
-                    background-color: black;
                 }
                 
-                .navListBox a {
-                    text-decoration: none;
-                    color: white;
-                }
-                
-                .iconItems {
-                    display: flex;
-                    align-items: center;
-                }
-                svg {
-                    
-                    fill: #fff;
+                .aboutText {
+                    width: 50vw;
+                    height: 70vh;
+                    font-size: 18px;
                 }
 
-                main {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    align-items: center;
-                    width: 100vw;
-                    height: 55vh;
-                }
-
-                main h4 {
-                    width: 40vw;
-                    text-align: justify;
-                    font-size: 22px;
-                    border: 1px solid black;
-                    padding: 5px;
-                }
-
-                a, a:hover, a:focus, a:active {
-                    text-decoration: none;
+                .aboutText p {
+                    text-indent: 50px;
                 }
             }
