@@ -170,7 +170,6 @@ svg {
 }
 
 .card {
-    /* Add shadows to create the "card" effect */
     display: flex;  
     flex-direction: column;
     justify-content: space-between;
@@ -182,7 +181,6 @@ svg {
     border-radius: 5px;
 }
 
-/* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
 }
@@ -210,7 +208,6 @@ svg {
     height: 120px;
 }
 
-/* Add some padding inside the card container */
 .container {
     display: flex;
     flex-direction: column;
