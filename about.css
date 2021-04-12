@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    min-height: 150vh;
+    min-height: 160vh;
 }
 
 .headerBox {
@@ -111,7 +111,8 @@ svg {
     justify-content: space-evenly;
     align-items: center;
     width: 100vw;
-    height: 75vh;
+    min-height: 75vh;
+    margin: 5px;
 }
 .aboutText {
     display: flex;
@@ -180,6 +181,9 @@ a, a:hover, a:focus, a:active {
                     font-size: 25px;
                 }
                 
+                .aboutBox {
+                    height: 75vh;
+                }
                 .aboutText {
                     width: 50vw;
                     height: 70vh;
