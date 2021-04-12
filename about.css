@@ -112,17 +112,18 @@ svg {
     align-items: center;
     width: 100vw;
     min-height: 75vh;
-    margin: 5px;
 }
 .aboutText {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 85vw;
+    min-height: 75vh;
     font-size: 18px;
     margin: 0;
     line-height: 25px;
+    margin: 5px;
 }
 
 .aboutText p {
